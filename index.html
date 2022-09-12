@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB</title>
+
+    
+</head>
+<body>
+    <ol class="link-list">
+        <a href="http://example.com">Абсолютная гиперссылка на главную страницу сайта</a><br>
+    <a href="https://example.com/">Абсолютная гиперссылка в протоколе https(2)</a><br>
+    <a href="ftp:/2ch.hk/files.file.html">Ссылка на файл на сервере FTP без авторизации</a><br>
+    <a href="ftp://user:228@2example.com/files.file.html">Ссылку на файл на сервере FTP с авторизацией</a><br>
+    <a href="http://2ch.hk#anchor">Ссылка на фрагмент страницы некоторого сайта</a><br>
+    <a href="#top">Ссылка на фрагмент текущей страницы</a><br>
+    <a href="http://2ch.hk?parameter1=p1&amp;parameter2=p2">Ссылка с двумя параметрами в URL</a><br>
+    <li class="link__menu__item">
+        Список ссылок основной навигации сайта с подписями title
+        <ul>
+            <li><a href="#head1" title="Нумерованный список гиперссылок">Нумерованный список гиперссылок</a></li>
+            <li><a href="#head2" title="Форма">Форма</a></li>
+        </ul>
+    </li><br>
+    <a>Ссылка без href</a><br>
+    <a href="">Ссылка с пустым href</a><br>
+    <a href="http://2ch.hk" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a><br>
+    <a href="http://2ch.hk" rel="nofollow"><noindex>Ссылка, запрещенная для индексации поисковиками</noindex></a><br>
+    <p>Контекстная <a href="http://2ch.hk">ссылка</a> в тексте абзаца</p><br>
+    <a href="example.com"> <img src="C:\Users\User\Downloads\16652566-hand-skeleton-illustration.jpg" alt=""></a> <br>
+    <img src="https://img2.fonwall.ru/o/we/lightning-mcqueen-cars-3-smirk-animation.jpeg" width="310" height="242" alt="Описание картинки" usemap="#mymap"><br>
+    <a href="page">Относительная ссылка на страницу в текущем каталоге</a><br>
+    <a href="./about/page">Относительная ссылка на страницу в каталоге about</a><br>
+    <a href="../page">Относительная ссылка на страницу в каталоге уровнем выше текущего</a><br>
+    <a href="../../page">Относительная ссылка на страницу в каталоге двумя уровнями выше текущего</a><br>
+    <a href="/">Сокращенная ссылка на главную</a></li><br>
+    <a href="/pages/page">Сокращенная ссылка на внутреннюю</a><br>
+
+
+
+   <form action="C:/" method="POST">
+    <label>
+        Однострочное текстовое поле:<br>
+        <input name="name" value="имя" />
+    </label><br>
+
+    <label>
+        Поле email:<br>
+        <input name="почта" value="primer@example.com" type="email" />
+    </label><br>
+
+    <label>
+        Поле даты рождения:<br>
+        <input name="дата рождения" value="2003-06-29" type="date" />
+    </label><br>
+    <label>
+        Количество конечностей:<br>
+        <label><input type="radio" checked="checked1" name="radio-group-1" value="Значение2" />
+            Две и меньше</label><br>
+        <label><input type="radio" name="radio-group-1" value="Значение2" />
+            Три</label><br>
+        <label><input type="radio" name="radio-group-1" value="Значение2" />
+            Четыре</label><br>
+        <label><input type="radio" name="radio-group-1" value="Значение2" />
+            Пять и больше(ОГО)</label><br>
+    </label>
+
+    <label>Пол:<br>
+        <label><input type="radio" checked="checked" name="radio-group-2" value="Значение1" />
+            Мужчина</label>
+        <label><input type="radio" name="radio-group-2" value="Значение2" />
+            Женщина</label><br>
+    </label>
+
+    <label>
+        Сверхспособности:
+        <br>
+        <select name="field-name-4[]" multiple="multiple">
+            <option value="Значение1">бессмертие</option>
+            <option value="Значение2" selected="selected">прохождение сквозь стены
+            <option value="Значение3" selected="selected">левитация
+            <option value="Значение2" selected="selected">человек паук
+        </select>
+    </label><br>
+
+    <label>
+        биография:<br>
+        <textarea name="field-name-2">начальное значение</textarea>
+    </label><br>
+
+    Контракт: <br>
+    <label><input type="checkbox" checked="checked" name="check-1" />
+        с контрактом ознакомлен (а)</label><br>
+
+    Кнопка отправки формы:
+    <input type="submit" value="Отправить" />
+</form>
+    
+</body>
+</html>
